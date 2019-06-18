@@ -4,6 +4,8 @@ import java.sql.ResultSetMetaData;
 import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.Iterator;
 
@@ -11,30 +13,45 @@ import org.json.JSONArray;
 import org.json.JSONObject;
 
 
-public class Test {
+public class Test2 extends DBConnection implements ExampleInterface{
 	static DBConnection conn = null;
 	
+	
+	@SuppressWarnings("unchecked")
 	public static void main(String[] args) {
+		String aa ="";
 		
 		
-		conn =  new DBConnection();
-		//conn = null;
+		ArrayList list = new ArrayList();
 		
-		
-		//StatisticsKeyword("","");
-		
-		StatisticsKeyword2("","");
-		
-		
-		
-		
-		
-		
-		if(conn != null) {
-			conn.close();
-			System.out.println("연결종료됨");
+		for(int i = 0; i < 20; i++) {
+			int randomInt = (int)(Math.random() *10);
+			
+			list.add(randomInt);
+			
+			
 		}
 		
+		
+		for(int i = 0; i < list.size(); i++) {
+			System.out.println(i+" :::::::::::::::::::  "+list.get(i));
+			
+			
+			
+		}
+		
+		System.out.println("\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
+		Collections.sort(list);
+		
+		
+		
+		
+		for(int i = 0; i < list.size(); i++) {
+			System.out.println(i+" :::::::::::::::::::  "+list.get(i));
+			
+			
+			
+		}
 		
 		
 	}
@@ -192,4 +209,16 @@ static String StatisticsKeyword2(String exTable, String date){
         
         return result;
     }
+
+
+
+
+	@Override
+	public void close2() {
+		// TODO 자동 생성된 메소드 스텁
+		
+	}
+
+
+
 }
