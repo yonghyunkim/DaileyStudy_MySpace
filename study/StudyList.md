@@ -4,4 +4,6 @@
 
 2.	프로그램언어 및 웹 개발 개념.
 
+3.  jpa/ mybatis의 장단점
 
+4.  blocking, non blocking
