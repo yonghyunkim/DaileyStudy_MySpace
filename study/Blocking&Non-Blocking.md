@@ -3,9 +3,13 @@
 Blocking이란.
 
 I/O 작업은 User Level에서 할 수 없다. 
+
 유저 프로세스는 커널(OS)에게 I/O 작업에 대한 요청을 해야 한다.
+
 I/O 작업을 처리하기 위해 User Level에 있던 Application이 시스템 함수를 호출한다. (system call).
+
 이때 context-switching이 발생한다.
+
 그리고 Kernel Level에서 해당 I/O 작업이 끝나고 데이터를 반환하게 되면 그 때 되서야 Application단의 스레드에 걸렸던 Block이 풀린다.
 
 Blocking (=syschronous 동일의미) 
