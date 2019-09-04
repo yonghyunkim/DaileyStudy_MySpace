@@ -19,5 +19,5 @@ Non - Blocking (=asynchronous)
 non-blocking 방식은 I/O작업을 진행하는 동안 유저 프로세스의 작업을 중단시키지 않는다.  
 
 Blocking vs Non-Blocking  
-Application 실행 시 운영체제 대기 큐에 들어가면서 요청에 대한 system call이 완료된 후에 응답을 보낼 경우 blocking  
-Application 실행 시 운영체제 대기 큐에 들어가지 않고 실행 여부와 관계없이 바로 응답을 보낼 경우 non-blocking  
+Application 실행 시 운영체제 대기 큐에 들어가면서 요청에 대한 system call이 완료된 후에 응답을 보낼 경우 **blocking**    
+Application 실행 시 운영체제 대기 큐에 들어가지 않고 실행 여부와 관계없이 바로 응답을 보낼 경우 **non-blocking**
