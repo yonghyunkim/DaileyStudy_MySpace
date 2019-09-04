@@ -15,7 +15,7 @@ I/O가 끝날 때까지 대기해야 한다.
 IO작업이 CPU자원을 거의 쓰지 않기 때문에 blocking방법은 cpu 자원 낭비가 심하다.  
 
 
-Non - Blocking (=asynchronous) 
+Non - Blocking (=asynchronous)  
 non-blocking 방식은 I/O작업을 진행하는 동안 유저 프로세스의 작업을 중단시키지 않는다.  
 
 Blocking vs Non-Blocking  
