@@ -138,21 +138,4 @@ public static void main(String[] args) {
 스프링에서는 xml 설정으로 객체생성 및 변수를 주입한다.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+참고자료 : https://sourcestudy.tistory.com/396
