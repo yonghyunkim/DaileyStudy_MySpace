@@ -7,3 +7,16 @@
 3.  jpa/ mybatis의 장단점
 
 4.  blocking, non blocking
+
+
+
+* DI
+
+* IoC
+
+* AOP & AOP Proxy
+
+* AOP in Spring
+
+
+
