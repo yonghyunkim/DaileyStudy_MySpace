@@ -1,6 +1,6 @@
 # Blocking&Non-Blocking
 
-Blocking이란.
+Blocking이란.2
 
 I/O 작업은 User Level에서 할 수 없다.  
 유저 프로세스는 커널(OS)에게 I/O 작업에 대한 요청을 해야 한다.  
