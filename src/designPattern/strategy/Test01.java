@@ -2,7 +2,7 @@ package designPattern.strategy;
 
 public class Test01 {
 	public static void main(String[] args) {
-		sdfds
+		System.out.println("sdfdsf");
 	}
 
 }
