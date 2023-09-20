@@ -6,6 +6,7 @@ public class Test01 {
 		System.out.println("VVV");
 		
 		System.out.println("CCC");
+		System.out.println("DDD");
 	}
 
 }
